@@ -21,10 +21,9 @@ forecasts = data['list']
 city_name = data['city']['name']
 
 # Retrieving data via twilio
-recovery_code_twilio = 'MZD9AU2S68PPACGMAPXYG24M'
 email_sender = 'john.dooe993@gmail.com'
-email_password = 'ckkgzglspmcnbjbd' # No spaces
-email_receiver = ['henrique.ribeiroduarte@gmail.com', 'anjuscha.k.helbig@gmail.com']
+email_password = os.environ.get('JD_EMAIL_PW') # No spaces
+email_receiver = ['john.dooe993@gmail.com']
 
 smtp_server = "smtp.gmail.com"
 port = 587
