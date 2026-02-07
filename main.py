@@ -34,9 +34,6 @@ msg['From'] = email_sender
 msg['To'] = email_receiver
 msg.set_content(f'Please note that rain is expected today in {city_name}.\n\nYours truly, HD')
 
-# # twilio
-# account_sid = "US4abd706ff58482338ee41e8492ae8e6c"
-# auth_token = "your_auth_token"
 
 rain = False
 
